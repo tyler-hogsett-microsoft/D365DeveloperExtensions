@@ -14,10 +14,10 @@ jobs:
     
     steps:
     - name: Add vs2017 Build Tools
-      run: choco install visualstudio2017buildtools
+      run: choco install visualstudio2017buildtools --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale en-US"
       
     - name: Add vs2017 Extension Tools
-      run: choco install visualstudio2017-workload-visualstudioextensionbuildtools
+      run: choco install visualstudio2017-workload-visualstudioextensionbuildtools --package-parameters "--includeOptional"
       
     #- name: Add vs2019 Extensions Tools
     #  run: choco install visualstudio2019-workload-visualstudioextension
