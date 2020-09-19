@@ -106,6 +106,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{F710F5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCSharpSolutionPackagerMap", "ItemTemplates\Web\CSharp\WebCSharpSolutionPackagerMap\WebCSharpSolutionPackagerMap.csproj", "{64FF26D5-D08C-4DE9-BC36-7D4452125D46}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitHub", "GitHub", "{F01E4708-66DE-4843-91E8-83EBA53CF40F}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\main.yml = .github\workflows\main.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
